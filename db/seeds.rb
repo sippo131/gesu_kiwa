@@ -5,3 +5,18 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+first_ary = ["ケツ","マタ","イヌ","サル","タマ","トリ"]
+first_ary.each do |f|
+  Gesu.create(first:"#{f}")
+end
+
+second_ary = ["黄ばみ","よごれ","亀頭","孤独","トイレ"]
+second_ary.each do |s|
+  Kiwami.create(second:"#{s}")
+end
+
+third_ary = ["恐れ","マンコ","ミドリ","勇気","怒り"]
+third_ary.each do |t|
+  Otome.create(third:"#{t}")
+end
