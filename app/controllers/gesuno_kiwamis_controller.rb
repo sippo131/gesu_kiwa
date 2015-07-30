@@ -1,8 +1,8 @@
 class GesunoKiwamisController < ApplicationController
   def show
-    @gesus = choice_one Gesu.all
-    @kiwamis = choice_one Kiwami.all
-    @otomes = choice_one Otome.all
+    @gesus = Gesu.all
+    @kiwamis = Kiwami.all
+    @otomes = Otome.all
   end
 
   def home

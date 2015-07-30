@@ -8,4 +8,29 @@ module GesunoKiwamisHelper
     return ans
   end
 
+  def gesu
+    ans_ary = []
+    @gesus.each do |gesu|
+      ans_ary << gesu.first
+    end
+    return ans_ary
+  end
+
+  def kiwami
+    ans_ary = []
+    @kiwamis.each do |kiwami|
+      ans_ary << kiwami.second
+    end
+    return ans_ary
+  end
+
+  def otome
+    ans_ary = []
+    @otomes.each do |otome|
+      ans_ary << otome.third
+    end
+    return ans_ary
+  end
+
+
 end

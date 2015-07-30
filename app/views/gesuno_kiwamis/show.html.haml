@@ -1,13 +1,1 @@
--# - @gesus.each do |gesu|
--#   = gesu.first
--#
--# -@kiwamis.each do |kiwami|
--#   =kiwami.second
--#
--# -@otomes.each do |otome|
--#   =otome.third
-
-%div
-  = answer
-
-= link_to "もういっかい？", show_path
+= react_component('Flash',gesu_datas: gesu, kiwami_datas: kiwami, otome_datas: otome)

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root 'gesuno_kiwamis#home'
-  get "show" => "gesuno_kiwamis#show"
+  root 'gesuno_kiwamis#show'
+  # get "show" => "gesuno_kiwamis#show"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
