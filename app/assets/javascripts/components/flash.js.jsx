@@ -19,10 +19,12 @@ var Flash = React.createClass({
   },
   render: function() {
     return (
-      <div>
-        <h1>{this.state.gesu}の{this.state.kiwami}{this.state.otome}</h1>
-        <button className="btn btn-primary" onClick={this.handleClick}>まだまだヤッちゃうぅ〜</button>
-      </div>
+      <center className="jumbotron">
+        <h1>
+          {this.state.gesu}の{this.state.kiwami}{this.state.otome}
+        </h1>
+        <button className="btn btn-success" onClick={this.handleClick}>More!</button>
+      </center>
     );
   }
 });
