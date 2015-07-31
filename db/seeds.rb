@@ -20,3 +20,8 @@ third_ary = ["恐れ","マンコ","ミドリ","勇気","怒り"]
 third_ary.each do |t|
   Otome.create(third:"#{t}")
 end
+
+fourth_ary = ["バナナ","キュウリ","股間","マイク","東国原","トマト"]
+fourth_ary.each do |f|
+  Watashi.create(fourth: "#{f}")
+end

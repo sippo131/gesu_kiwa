@@ -32,5 +32,13 @@ module GesunoKiwamisHelper
     return ans_ary
   end
 
+  def watashi
+    ans_ary = []
+    @watashis.each do |watashi|
+      ans_ary << watashi.fourth
+    end
+    return ans_ary
+  end
+
 
 end
