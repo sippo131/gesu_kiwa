@@ -23,12 +23,12 @@ var Flash = React.createClass({
   render: function() {
     return (
       <center className="jumbotron">
-        <h1>
+        <h2>
           {this.state.gesu}の{this.state.kiwami}{this.state.otome}。
-        </h1>
-        <h3>
+        </h2>
+        <h4>
           {this.state.watashi}以外{this.state.watashi}じゃないの
-        </h3>
+        </h4>
         <button className="btn btn-success" onClick={this.handleClick}>More!</button>
       </center>
     );
